@@ -1,4 +1,4 @@
--- made by kax
+
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local FPS = Instance.new("TextButton")
@@ -12,7 +12,7 @@ local panicbutton = Instance.new("TextButton")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Parent = game.CoreGui
 
 main.Name = "main"
 main.Parent = ScreenGui
@@ -20,8 +20,8 @@ main.BackgroundColor3 = Color3.fromRGB(21, 21, 58)
 main.BorderSizePixel = 0
 main.Position = UDim2.new(0.208366245, 0, 0.256289333, 0)
 main.Size = UDim2.new(0, 513, 0, 289)
-main.Active = true
-main.Draggable = true	
+main.Active = true	
+main.Draggable = true
 
 FPS.Name = "FPS"
 FPS.Parent = main
@@ -61,6 +61,7 @@ FPS.MouseButton1Down:connect(function()
 	end
 end)
 
+
 MM2.Name = "MM2"
 MM2.Parent = main
 MM2.BackgroundColor3 = Color3.fromRGB(69, 64, 109)
@@ -92,7 +93,6 @@ AdoptMe.TextWrapped = true
 AdoptMe.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
-
 
 PetSimX.Name = "Pet Sim X"
 PetSimX.Parent = main
@@ -166,7 +166,7 @@ panicbutton.TextWrapped = true
 
 -- Scripts:
 
-local function PUPTSB_fake_script() -- Label.LocalScript 
+local function YHYAXQ_fake_script() -- Label.LocalScript 
 	local script = Instance.new('LocalScript', Label)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -179,8 +179,8 @@ local function PUPTSB_fake_script() -- Label.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(PUPTSB_fake_script)()
-local function FRQBS_fake_script() -- panicbutton.Script 
+coroutine.wrap(YHYAXQ_fake_script)()
+local function JILGZY_fake_script() -- panicbutton.Script 
 	local script = Instance.new('Script', panicbutton)
 
 	
@@ -194,8 +194,8 @@ local function FRQBS_fake_script() -- panicbutton.Script
 	end
 	script.Parent.MouseButton1Click:connect(onClicked)
 end
-coroutine.wrap(FRQBS_fake_script)()
-local function HGKOZKS_fake_script() -- panicbutton.LocalScript 
+coroutine.wrap(JILGZY_fake_script)()
+local function NJWD_fake_script() -- panicbutton.LocalScript 
 	local script = Instance.new('LocalScript', panicbutton)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -208,4 +208,4 @@ local function HGKOZKS_fake_script() -- panicbutton.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(HGKOZKS_fake_script)()
+coroutine.wrap(NJWD_fake_script)()
